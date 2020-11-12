@@ -43,7 +43,7 @@ export default {
         }
       }).catch(error => {
         if (typeof error.response == 'undefined') {
-          
+          this.errorMsg = 'Network Error!';
         }else if(error.response.status == 401){
           this.errorMsg = error.response.statusText;
         }
