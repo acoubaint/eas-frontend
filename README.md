@@ -1,4 +1,4 @@
-# frontend
+# frontend - Event Attendance System
 
 ## Project setup
 ```
